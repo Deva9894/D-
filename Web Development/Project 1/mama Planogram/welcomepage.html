@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!--Sosial Media -->
+  <link rel="stylesheet"
+   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="menu.css">
+  <title>MamaHome</title>
+</head>
+<body>
+ <nav>
+   <div class="logo"><a href="welcomepage.html" class="logo"> <img src="assets/img/webimages/logo1.png" class="img-fluid" alt="" height="20px"></a></div>
+   <!-- toggle menu button -->
+   <span class="menubtn" onclick="openNav()">&#9776;</span>
+   <div class="navLinks">
+     <ul>
+       <li><a href="#">Home</a></li>
+       <li><a href="#">About</a></li>
+       <li><a href="#">Services</a></li>
+       <li><a href="#">Contact</a></li>
+       <li><a href="C:\Work Part\User Deva\My Work Space\Model form\login.html">Login</a></li>
+       <!-- <li><a href="C:\Work Part\User Deva\My Work Space\Model form\login.html"><button type="button">Login</button></a></li> -->
+       <li><a onClick="onClickFn()">Register</a></li>
+     </ul>
+   </div>
+ </nav>
+   <!-- responsive side navbar -->
+   <div class="sideNav" id="sidenav">
+     <a href="#" class="closeBtn" onclick="closeNav()"> &#10006;</a>
+     <a href="#">Home</a>
+     <a href="#">About</a>
+     <a href="#">Services</a>
+     <a href="#">Contact</a>
+     <a href="C:\Work Part\User Deva\My Work Space\Model form\login.html"><button type="button">Login</button> </a>
+   </div>
+   
+   <!-- Header content with banner image -->
+   <div class="row">
+     <div class="column1">
+       <h1>MamaMicro Technology</h1>
+       <p>Contact us for responsive Web Development to grow your business!</p>
+       
+       <!-- <a href="C:\Work Part\User Deva\My Work Space\Model form\login.html"><button type="button">Connect</button></a> -->
+
+<!--Sosial media icons-->
+<a href="https://www.youtube.com/watch?v=3lEd2qXq1o4" class="fa fa-youtube"></a>
+<a href="https://www.facebook.com/Mamahomeindia" class="fa fa-facebook"></a>
+<a href="https://www.instagram.com/mamahome360?r=nametag" class="fa fa-instagram"></a>
+<a href="https://www.linkedin.com/company/mama-home-pvt-ltd/?viewAsMember=true" class="fa fa-linkedin"></a>
+
+
+       <!-- <button href="Login.html">Connect</button> -->
+     </div>
+     <div class="column2">
+       <img src="C:\Users\HP\Downloads\www.mamahome360.com\www.mamahome360.com\assets\img\resize.jpg" 
+       alt="banner" height="300px" width="400px">
+     </div>
+   </div>
+   
+   <!-- javascript to make side menu appear -->
+ <script>
+   function openNav() {
+     document.getElementById("sidenav").style.width = "50%";
+   }
+   function closeNav() {
+     document.getElementById("sidenav").style.width = "0%";
+   }
+
+
+
+   <!-- javascript to make  New Reg Page Link -->
+
+  function onClickFn(){
+    document.location.href="Login.html"
+  }
+ </script>
+
+<!--Sosial media icons-->
+<!-- <a href="https://www.youtube.com/watch?v=3lEd2qXq1o4" class="fa fa-youtube"></a>
+<a href="https://www.facebook.com/Mamahomeindia" class="fa fa-facebook"></a>
+<a href="https://www.instagram.com/mamahome360?r=nametag" class="fa fa-instagram"></a>
+<a href="https://www.linkedin.com/company/mama-home-pvt-ltd/?viewAsMember=true" class="fa fa-linkedin"></a> -->
+ <!-- ======= Top Bar ======= -->
+ <!-- <span style="position:absolute: top:0px; left:0px;">
+ <section id="topbar" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="contact-info d-flex align-items-center">
+            <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:info@mamahome360.com">info@mamahome360.com</a></i>
+            <i class="bi bi-phone d-flex align-items-center ms-4"><span>+91 854 8888 940</span></i>
+        </div>
+        <div class="social-links d-none d-md-flex align-items-center">
+
+            <a href="https://www.facebook.com/Mamahomeindia" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/mamahome360?r=nametag" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.youtube.com/watch?v=3lEd2qXq1o4" class="youtube"><i class="bi bi-youtube"></i></a>
+            <a href="https://www.linkedin.com/company/mama-home-pvt-ltd/?viewAsMember=true" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        </div>
+    </div>
+</section>
+</span> -->
+
+</body>
+</html>
